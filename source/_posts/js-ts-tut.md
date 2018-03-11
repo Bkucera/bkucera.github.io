@@ -1,18 +1,17 @@
 ---
-title: JavaScript and TypeScript for people with Java skills (ft. Party Parrots) 
-date: 2018-03-10 14:16:49
+title: JavaScript and TypeScript for people with Java skills (ft. Party Parrots)
+date: 2018-03-10
 tags: 
  - javascript
  - typescript
 
 ---
-:congapartyparrot::congapartyparrot::congapartyparrot::congapartyparrot::congapartyparrot::congapartyparrot::congapartyparrot:
 
-
-So you're looking to learn `TypeScript`, and you've got some OOP knowledge. Let's put it to work. :hammer:
+##### So you're looking to learn `TypeScript`, and you've got some OOP knowledge. Let's put it to work. :hammer:
 
 ![](/images/spongememe_java.png)
-*Just remember to breathe.*
+*Just remember how to breathe.*
+
 ## What You'll Learn 
 - How to write JavaScript
 - Difference between Typescript and JavaScript
@@ -38,7 +37,7 @@ console.log(a)
 ...unless we use `const`, which is similar to declaring a `final` variable in Java
 ```js
 const b = 3
-b = 100 //> error
+b = 100 //> error :fearful:
 ```
 
 ### Types
@@ -62,7 +61,7 @@ console.log( Math.floor(5 / 2))
 ```
 
 #### Strings
-A `String` is just a string. There are some useful functions you can call from them as well. 
+A `String` is just a string. There are some useful functions you can call from them as well. :point_down:
 ```js
 let myString = "partyparrot_"
 let repeated = myString.repeat(5)
@@ -82,7 +81,7 @@ if (isParty) {
 ```
 
 #### Objects
-Getting trickier. An `Object` can be used like this:
+Getting trickier :sweat:. An `Object` can be used like this:
 ```js
 let myObj = {
 	prop1: 123
@@ -125,7 +124,7 @@ arr[arr.length - 1] //> 'three'
 let arr2 = []
 arr2.push('one') //> ['one']
 arr2.concat(['two', 3]) //> ['one', 'two', 3]
-arr2.pop //> 3
+arr2.pop() //> 3
 
 let parrot = {name: "partyparrot"}
 let arr3 = [partyparrot, {name: "evilparrot"}]
@@ -167,10 +166,10 @@ const listParrots = (...parrots) => `Parrots: ${parrots.join(',')}`
 listParrots("chill", "bored", "banana")
 //> Parrots: chill, bored, banana
 ```
-**Much better** :smile:
+**Much better** :thumbsup:
 
 ![smelly](/images/smelly.png)
-*A little too easy*
+*A little too easy*...:eyes:
 
 
 ### An OOP Example
@@ -197,6 +196,7 @@ This is great, but... how can I get `polly` to tell me her own `name`?
 Polly can't refer to herself as `polly` since that is refering to the name of the local variable. If the `Object` "polly" gets renamed or passed to a different scope, Polly looses reference to herself.
 So this wouldn't work:
 ```js
+:x:
 let polly = {
 	name: "polly",
 	mood: "grumpy",
@@ -214,7 +214,7 @@ let pam = polly
 polly = null
 pam.sayName()
 //> ERROR: Can't call function on type `null`
-//> variable "polly" no longer exists
+//> variable "polly" no longer exists :skull:
 ```
 
 :thinking: It seems like we need `polly` to be able to maintain her own state or **variables**, so that she can remember who she is...It's like we need an object with state...
@@ -244,6 +244,7 @@ let frank = makeParrot("Frank","happy")
 frank.getMood()
 //> happy
 ```
+:100:
 
-### :construction: This post is still under construction, Please check back later. :construction:
+### :construction: This post is still under construction, please check back later. :construction:
 :sadparrot:
