@@ -79,7 +79,7 @@ theme: anatole
 deploy:
   type: git
   repo: git@github.com:Bkucera/bkucera.github.io.git
-  branch: docs
+  branch: master
   message: Deployment
 
 
