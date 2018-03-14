@@ -10,7 +10,6 @@ tags:
 # Project 1 Proposal - Housing Markets in a Market Economy:house:
 
 *Housing markets are complex, and a discrete event simulation lends itself to modeling how different forces and individuals' decisions affect the market as a whole.*
-sim reportksdjfdfsdfsdfsfj;kjkljjjjjjjsdfsdfsdfsddsfsdfsdf
 ## Project Description
 
 **SUI (System Under Investigation)** : Housing Market in Market Economy
@@ -21,7 +20,7 @@ How can one model the development of the housing market and the time to buy/sell
 
 **Possible Insights**:
 
-- Hown does a simple supply/demand economy trend long term?
+- How does a simple supply/demand economy trend long term?
 - How do people's willingness to negotiate affect the time a house could be on market?
 - Would prices trend a certain way if buyers are more likely to compromise over sellers?
 - How often is a home expected to be sold if its initial price is relatively low in the market?

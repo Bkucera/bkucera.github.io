@@ -28,6 +28,7 @@ hexo.extend.filter.register('after_post_render', data => {
 			return match
 		}
 	})
+	data.content = data.content.replace(/\u2019/g,"'")
 	return data
 },9)
 
